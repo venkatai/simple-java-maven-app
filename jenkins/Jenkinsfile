@@ -19,10 +19,5 @@ pipeline {
                 }
             }
         }
-        stage('Complete') { 
-            steps {
-                echo 'Jenkins Pipeline Completed Successfully'
-            }
-        }
     }
 }
